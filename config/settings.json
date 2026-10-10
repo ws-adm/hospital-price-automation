@@ -1,0 +1,18 @@
+{
+  "brasicinde": {
+    "site_url": "",
+    "output_dir": "data/raw",
+    "filename_pattern": "brasicinde_{year}_{month}.csv"
+  },
+  "simpro": {
+    "app_path": "",
+    "output_dir": "data/raw",
+    "filename_pattern": "simpro_{year}_{month}.csv"
+  },
+  "database": {
+    "stored_procedures": {
+      "brasicinde": "",
+      "simpro": ""
+    }
+  }
+}

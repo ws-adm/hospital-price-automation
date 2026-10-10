@@ -1,0 +1,16 @@
+# === Automação e banco ===
+playwright==1.48.0
+pywinauto==0.6.8
+pyodbc==5.1.0
+
+# === Configuração e logs ===
+python-dotenv==1.0.1
+python-json-logger==2.0.7
+
+# === Processamento de dados ===
+pandas==2.2.3
+openpyxl==3.1.5
+
+# === Testes ===
+pytest==8.3.3
+pytest-playwright==0.5.2

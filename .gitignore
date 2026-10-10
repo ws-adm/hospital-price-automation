@@ -1,0 +1,46 @@
+# Dependências
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# Segredos e ambiente
+.env
+.env.local
+.env.*.local
+secrets.json
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados e logs (não versionar conteúdo)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+logs/*.log
+logs/*.json
+
+# Capturas de tela/automação (podem conter dados sensíveis)
+tools/captures/*
+!tools/captures/.gitkeep
+tools/loop_output.log
